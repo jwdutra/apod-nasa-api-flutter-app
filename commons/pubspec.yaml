@@ -1,0 +1,36 @@
+name: commons
+description: "A new Flutter package project."
+version: 0.0.1
+publish_to: 'none'
+# homepage:
+
+environment:
+  sdk: ^3.7.0
+  flutter: ">=1.17.0"
+  
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.20.2
+  get: ^4.7.2
+  dio: ^5.8.0+1
+  hive: ^2.2.3
+  path_provider: ^2.1.5
+  equatable: ^2.0.7
+
+  video_player: ^2.9.3
+  youtube_player_flutter: ^9.1.1
+  cached_network_image: ^3.4.1
+  modal_bottom_sheet: ^3.0.0
+
+  logger: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+#flutter:
+

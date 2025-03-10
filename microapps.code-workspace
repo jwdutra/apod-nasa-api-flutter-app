@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "main"
+		},
+		{
+			"path": "commons"
+		},
+		{
+			"path": "core"
+		},
+		{
+			"path": "modules/access"
+		},
+		{
+			"path": "modules/home"
+		}
+	],
+	"settings": {}
+}

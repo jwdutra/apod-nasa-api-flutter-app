@@ -1,0 +1,33 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+		{
+			"name": "Web Development",
+			"request": "launch",
+			"type": "dart",
+			"args": [
+				"-d", "chrome",
+				"--dart-define-from-file=assets/env/env.json",
+				"--web-port",
+				"5000",
+				"--web-browser-flag",
+				"--disable-web-security"
+			],
+			"program": "main/lib/main.dart",
+		},
+		{
+			"name": "Mobile",
+			"program": "main/lib/main.dart",
+			"request": "launch",
+			"type": "dart",
+			"args":[
+                "--dart-define-from-file", "assets/env/env.json",
+			],
+		},
+       
+    ]
+}

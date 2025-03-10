@@ -1,0 +1,8 @@
+pubspec.lock
+.idea
+main/pubspec_overrides.yaml
+.fvm
+.dart_tool
+modules/media/pubspec_overrides.yaml
+modules/home/pubspec_overrides.yaml
+core/pubspec_overrides.yaml

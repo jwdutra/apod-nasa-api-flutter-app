@@ -1,0 +1,2 @@
+/Users/jwdutra/Documents/dev/eclipseworks/nasa/main/android/app/.cxx/Debug/5x355l5r/x86/CMakeFiles/edit_cache.dir
+/Users/jwdutra/Documents/dev/eclipseworks/nasa/main/android/app/.cxx/Debug/5x355l5r/x86/CMakeFiles/rebuild_cache.dir
