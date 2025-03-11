@@ -63,3 +63,19 @@ O projeto já está configurado para com os recursos do melos.
 Após a instalação, para executar automaticamente o flutter pub get em todos os repositórios execute
 
 `$ melos bs`
+
+### Configuração de API e chaves
+
+Asconfigurações de url de API e chave de acesso são configurados em um arquivo json que será usado ao fazer a execução ou o build do app.
+
+Para executar o projeto, pode-se usar o launch do vscod, que já vem configurado para execuçao em abiente web ou em dispositivos físicos ou emuladores.
+
+Para executar manualmente, execute o comando:
+
+`$ flutter run --dart-define-from-file=assets/env/env.json`
+
+Certifique-se anteriormente que o seu terminal esteja na pasta `main` do projeto.
+
+Esta é a tela principal do projeto após a execução.
+
+![](assets/20250310_213156_image.png)
