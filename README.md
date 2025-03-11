@@ -8,12 +8,14 @@ Este projeto é um aplicativo Flutter que consome a API Astronomy Picture of the
 
 O projeto é organizado em microapps, onde cada funcionalidade principal do aplicativo é desenvolvida como um módulo independente. Isso facilita a manutenção, escalabilidade e testes isolados de cada parte do aplicativo. Cada microapp contém suas próprias camadas de apresentação, domínio e dados.
 
+```
 |-- main
 |-- commons
 |-- core
 |-- modules
     |-- home
     |-- media
+```
 
 - **main**: package principal do projeto
 - **commons**: package de recursos independentes do negócio, dependencies, wrapes, henpers genéricos, environment, integraççoes etc
