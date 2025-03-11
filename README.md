@@ -41,3 +41,25 @@ O projeto adere aos princípios SOLID para garantir um código mais robusto e de
 - **D**ependency Inversion Principle (Princípio da Inversão de Dependência): Dependa de abstrações, não de implementações concretas.
 
 Essa combinação de microapps, Clean Architecture e princípios SOLID resulta em um código modular, testável e fácil de manter.
+
+## Recursos utilizados
+
+### Flutter
+
+Versão do Flutter: 3.29.1
+
+Versão do dart: 3.7.0
+
+### Melos
+
+Melos é uma ferramenta de gerenciamento de pacotes para projetos Flutter e Dart que facilita o gerenciamento de múltiplos pacotes dentro de um único repositório (monorepo). Ele ajuda a automatizar tarefas comuns, como a publicação de pacotes, a execução de testes e a atualização de dependências, tornando o desenvolvimento mais eficiente e organizado.
+
+Para instalar
+
+`$ flutter pub add melos`
+
+O projeto já está configurado para com os recursos do melos.
+
+Após a instalação, para executar automaticamente o flutter pub get em todos os repositórios execute
+
+`$ melos bs`
